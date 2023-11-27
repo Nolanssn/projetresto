@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lycée Réservations de Repas</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        header {
+            background-color: #343a40;
+            color: #ffffff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #495057;
+            color: #ffffff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 2em;
+            text-align: center;
+        }
+
+        form {
+            max-width: 400px;
+            margin: auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form h2 {
+            color: #343a40;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            color: #495057;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #343a40;
+            color: #ffffff;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #ffffff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Lycée Réservations de Repas</h1>
+    </header>
+
+    <nav>
+        <a href="#">Accueil</a> |
+        <a href="#">Menu</a> |
+        <a href="#">Réservations</a> |
+        <a href="#">Historique</a> |
+        <a href="#">Contact</a>
+    </nav>
+
+    <section>
+        <h2>Bienvenue sur le site de réservations de repas du lycée</h2>
+        <p>Connectez-vous pour effectuer des réservations et consulter le menu.</p>
+        <p>Inscrivez-vous si vous n'avez pas encore de compte.</p>
+
+        <form>
+            <h2>Connexion</h2>
+            <label for="username">Nom d'utilisateur :</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <label for="password">Mot de passe :</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <input type="submit" value="Se connecter">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Lycée Réservations de Repas</p>
+    </footer>
+
+</body>
+</html>
